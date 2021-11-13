@@ -1,0 +1,16 @@
+# RENAME ME TO CONFIG.YAML!
+
+etherscan_api_key:
+  XXXXXXXXXXX
+users:
+  user1:
+    name: XXX
+    address: '0x123123123123129ad9fad9fj' # Address must be enclosed in quotation marks
+  user2:
+    name: XXX
+    address: '0x2342342342349df9d9fje9f0'
+  # you can add more users, by doing...
+  # user3:
+    # name: XXX
+    # address: '0x3453453453453495j9j9j0ff'
+  # etc...
