@@ -1,16 +1,25 @@
 # RENAME ME TO CONFIG.YAML!
 
 etherscan_api_key:
-  XXXXXXXXXXX
+  XXXXXXXXXXX <your Etherscan API key here>
+snowtrace_api_key:
+  XXXXXXXXXXX <your Snowtrace API key here>
 users:
   user1:
     name: XXX
     address: '0x123123123123129ad9fad9fj' # Address must be enclosed in quotation marks
+    network: ['eth','avax'] # this will check both the Ethereum and Avalanche txns for this address
   user2:
     name: XXX
     address: '0x2342342342349df9d9fje9f0'
+    network: ['eth'] # this will only check Ethereum txns for this address
+  user3:
+    name: XXX
+    address: '0x456456456456456456456456'
+    network: ['avax'] # this will only check Ethereum txns for this address
   # you can add more users, by doing...
-  # user3:
+  # user4:
     # name: XXX
     # address: '0x3453453453453495j9j9j0ff'
+    # network: ['network1', 'network2', ...] (see README for acceptable values)
   # etc...
